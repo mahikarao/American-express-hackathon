@@ -11,3 +11,6 @@ This method returns an array of integers to the caller. For this problem it repr
 Method2-
 lucky_days(int [] int_tokens):- We are lucky if the price of today is highest as compared to the price of future days. Method2 is used to perform this comparison. In other words, we have to check if the price of today(value of current position in array) is MAXIMUM with all the price in future(values present on RIGHT SIDE TO CURRENT POSITION in the array).
 This method returns an integer value representing total number of lucky days for a test case.
+
+Irregularities of 'split' function:- s.split(" ")
+if a string s contains more than 1 space in between its two words, then one of the space gets counted as another word itself.
